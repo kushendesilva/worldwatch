@@ -38,13 +38,16 @@
     },
     "plugins": [
       "expo-router",
-      "react-native-fbsdk-next",{
-        "appID": "406648838758634",
-        "clientToken": "4dfaecf23a7f185c84404f8bae02ca5b",
-        "displayName": "World Watch",
-        "scheme": "fb406648838758634"
-      },
-      "@react-native-google-signin/google-signin"
+      "@react-native-google-signin/google-signin",
+      [
+        "react-native-fbsdk-next",
+          {
+            "appID": "406648838758634",
+            "clientToken": "4dfaecf23a7f185c84404f8bae02ca5b",
+            "displayName": "World Watch",
+            "scheme": "fb406648838758634"
+          }
+      ]
     ],
     "experiments": {
       "typedRoutes": true

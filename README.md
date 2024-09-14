@@ -1,11 +1,11 @@
 <h1 align="center">Hey <img style="margin-bottom:-3px;" src="https://images.squarespace-cdn.com/content/v1/5b5587ed8ab722298af0921a/4d51fa35-1bcb-4385-9be6-03f330e5dad6/ABOUT-US-JOHN-WAVING.gif" width="40">, I'm Kushen De Silva</h1><p align="center"><em>World Watch
 </em></p>
 
-- Downloadable APK available <a href="https://github.com/kushendesilva/wireapps/releases/download/v1.0.0/worldwatch.apk" target="blank">**here**</a>
+- Downloadable APK available <a href="https://github.com/kushendesilva/worldwatch/releases/download/v1.0.0/worldwatch.apk" target="blank">**here**</a>
 
 <h3 align="left">Dev Environment</h3>
 <ul>
-    <li>Node.js v20.17.0</li>
+    <li>Node.js v18.20.4</li>
     <li>npm v10.7.0</li>
     <li>Expo v51.0.28</li>
 </ul>
@@ -15,7 +15,7 @@
 - run following commands in the terminal.
 
 ```
-npm install
+npm i
 npx expo start
 ```
 
